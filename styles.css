@@ -17,3 +17,21 @@ body{
 .accent{
     color: palevioletred
 }
+
+@media screen (max-width: 768px){
+    body{background-color: blue;}
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 15px;
+    flex-wrap:wrap;
+}
+
+.grid div{
+background-color: blueviolet;
+border-radius: 100px;
+padding: 7px break;
+}
